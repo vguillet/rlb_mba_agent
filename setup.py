@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'rlb_mba_agent = rlb_mba_agent.rlb_mba_agent:main'
         ],
     },
 )
